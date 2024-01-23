@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script>
+        function redirectToSite() {
+           window.location.href = 'index.html';
+       }
+   </script>
+</head>
+<body onclick="redirectToSite();" style="height: 100vh;">
+    <div id="overview" onclick="redirectToSite();">
+        <a id="first-quiz" class="quiz-overview" href="quiz-one.html">
+            <h3>Quiz One</h3>
+            <p>The words you (hopefully) find will give you a hint on the password for the next Quiz!</p>
+        </a>
+        <div id="second-quiz" class="quiz-overview">
+            <h3>Quiz Two</h3>
+            <p>The words you (hopefully) find will give you a hint on the password for the next Quiz!</p>
+        </div>
+    </div>  
+    <script src="js/script.js"></script>
+</body>
+</html>

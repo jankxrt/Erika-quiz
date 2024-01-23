@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/quizone.css">
+    <script>
+        function redirectToSite() {
+           window.location.href = 'quiz-overview.html';
+       }
+   </script>
+</head>
+<body>
+    <div id="content-wrapper">
+        <div id="wordSearchPuzzle">
+            <table id="puzzleGrid">
+                <tr>
+                    <td>X</td>
+                    <td>H</td>
+                    <td>S</td>
+                    <td>G</td>
+                    <td>H</td>
+                    <td>H</td>
+                    <td>D</td>
+                    <td>B</td>
+                    <td>L</td>
+                    <td>Y</td>
+                </tr>
+                <tr>
+                    <td>G</td>
+                    <td>U</td>
+                    <td>O</td>
+                    <td>P</td>
+                    <td>A</td>
+                    <td>S</td>
+                    <td>F</td>
+                    <td>G</td>
+                    <td>H</td>
+                    <td>M</td>
+                </tr>
+                <tr>
+                    <td>F</td>
+                    <td id="Fold-F" class="fold-letter">F</td>
+                    <td>Q</td>
+                    <td>O</td>
+                    <td>P</td>
+                    <td>S</td>
+                    <td>L</td>
+                    <td>M</td>
+                    <td>A</td>
+                    <td>K</td>
+                </tr>
+                <tr>
+                    <td>R</td>
+                    <td id="Fold-O" class="fold-letter">O</td>
+                    <td>O</td>
+                    <td class="valley-letter">V</td>
+                    <td class="valley-letter">A</td>
+                    <td class="valley-letter">L</td>
+                    <td class="valley-letter">L</td>
+                    <td class="valley-letter">E</td>
+                    <td class="valley-letter">Y</td>
+                    <td>P</td>
+                </tr>
+                <tr>
+                    <td>A</td>
+                    <td id="Fold-L" class="fold-letter">L</td>
+                    <td>H</td>
+                    <td>S</td>
+                    <td>D</td>
+                    <td>N</td>
+                    <td>P</td>
+                    <td>Z</td>
+                    <td>Y</td>
+                    <td>O</td>
+                </tr>
+                <tr>
+                    <td>E</td>
+                    <td id="Fold-D" class="fold-letter">D</td>
+                    <td>A</td>
+                    <td>O</td>
+                    <td>U</td>
+                    <td>G</td>
+                    <td>D</td>
+                    <td>A</td>
+                    <td>T</td>
+                    <td>X</td>
+                </tr>
+                <tr>
+                    <td>C</td>
+                    <td>G</td>
+                    <td>B</td>
+                    <td class="squash-letter">S</td>
+                    <td class="squash-letter">Q</td>
+                    <td class="squash-letter">U</td>
+                    <td class="squash-letter">A</td>
+                    <td class="squash-letter">S</td>
+                    <td class="squash-letter">H</td>
+                    <td>M</td>
+                </tr>
+                <tr>
+                    <td>S</td>
+                    <td>T</td>
+                    <td>U</td>
+                    <td>R</td>
+                    <td>D</td>
+                    <td>O</td>
+                    <td>P</td>
+                    <td>A</td>
+                    <td>S</td>
+                    <td>D</td>
+                </tr>
+                <tr>
+                    <td>U</td>
+                    <td>Q</td>
+                    <td>I</td>
+                    <td>C</td>
+                    <td>H</td>
+                    <td>I</td>
+                    <td>T</td>
+                    <td>A</td>
+                    <td>Q</td>
+                    <td>P</td>
+                </tr>
+                <tr>
+                    <td>A</td>
+                    <td class="butterfly-letter">B</td>
+                    <td class="butterfly-letter">U</td>
+                    <td class="butterfly-letter">T</td>
+                    <td class="butterfly-letter">T</td>
+                    <td class="butterfly-letter">E</td>
+                    <td class="butterfly-letter">R</td>
+                    <td class="butterfly-letter">F</td>
+                    <td class="butterfly-letter">L</td>
+                    <td class="butterfly-letter">Y</td>
+                </tr>
+            </table>
+        </div>
+        <div id="puzzleResult" style="display: flex; gap: 5em;">
+            <div id="row-1">
+                <h3 id="fold" style="display: none;">Fold</h3>
+                <h3 id="valley" style="display: none;">Valley</h3>
+            </div>
+            <div id="row-2">
+                <h3 id="butterfly" style="display: none;">Butterfly</h3>
+                <h3 id="squash" style="display: none;">Squash</h3>
+            </div>
+        </div>    
+    </div>
+    <script src="js/quiz-one.js"></script>
+</body>
+</html>
