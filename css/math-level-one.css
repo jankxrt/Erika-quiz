@@ -124,7 +124,7 @@ header {
 #win-one-math {
     z-index: 1;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.7);
     top: 0;
@@ -151,7 +151,14 @@ header {
     border-radius: 2vw;
 }
 
-#main-win-content-wrapper * {
+#input-solution {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    line-height: 2vw !important;
+}
+
+#main-win-content-wrapper h1, button {
     line-height: 0;
     padding: 0;
 }
@@ -197,10 +204,4 @@ header {
     padding-left: 1vw;
     font-family: 'Roboto Medium';
     color: rgba(0, 0, 0, 0.5);
-}
-
-#input-solution {
-    display: flex;
-    flex-direction: column;
-    gap: 1vw;
 }
