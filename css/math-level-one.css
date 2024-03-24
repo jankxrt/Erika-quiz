@@ -23,6 +23,7 @@ body {
     padding-left: 4vw;
     padding-right: 4vw;
     background-color: #FF362F;
+    overflow: hidden;
 }
 
 .button {
@@ -124,7 +125,7 @@ header {
 #win-one-math {
     z-index: 1;
     width: 100%;
-    height: 100%;
+    height: 200vh;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.7);
     top: 0;
