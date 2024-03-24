@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'Syne SemiBold';
+    src: url('../fonts/Syne-SemiBold.ttf');
+}
+
+body{
+	margin: 0;
+	padding: 0;
+    background-color: #ADD8E6;
+    overflow: hidden;
+}
+
+p {
+    color: white;
+    font-family: 'Syne SemiBold';
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+dd {
+    color: white;
+    font-family: 'Syne SemiBold';
+}
+
+#body-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#wrapper {
+    display: flex;
+}
+
+/* ------- */
+
+.rotate { 
+    width: 145px;
+    line-height: 1.9;
+}
+
+.rotate dd {
+    position: absolute;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.rotate dd.slide-out {
+    animation: slide-out-bottom 1s ease-in both 1.8s;
+}
+.rotate dd.slide-in {
+    animation: slide-in-bottom 4s ease-out both 12s;
+}
+.rotate dd.slide-in-out.two {
+    animation: slide-in-out-bottom 2s linear both 2s;
+}
+.rotate dd.slide-in-out.three {
+    animation: slide-in-out-bottom 2s linear both 3s;
+}
+.rotate dd.slide-in-out.four {
+    animation: slide-in-out-bottom 2s linear both 4s;
+}
+.rotate dd.slide-in-out.five {
+    animation: slide-in-out-bottom 2s linear both 5s;
+}
+.rotate dd.slide-in-out.six {
+    animation: slide-in-out-bottom 2s linear both 6s;
+}
+.rotate dd.slide-in-out.seven {
+    animation: slide-in-out-bottom 2s linear both 7s;
+}
+.rotate dd.slide-in-out.eight {
+    animation: slide-in-out-bottom 2s linear both 8s;
+}
+.rotate dd.slide-in-out.nine {
+    animation: slide-in-out-bottom 2s linear both 9s;
+}
+.rotate dd.slide-in-out.ten {
+    animation: slide-in-out-bottom 3s linear both 10s;
+}
+
+@keyframes slide-in-out-bottom {
+    0% { 
+        transform: translateY(-25px);
+        opacity: 0;
+    }
+    50% { 
+        transform: translateY(0px);
+        opacity: 1;
+    }
+    100% { 
+        transform: translateY(25px);
+        opacity: 0;
+    }
+}
+
+@keyframes slide-out-bottom {
+    0% { 
+        transform: translateY(0px);
+        opacity: 1;
+    }
+    100% { 
+        transform: translateY(25px);
+        opacity: 0;
+    }
+}
+
+@keyframes slide-in-bottom {
+    0% { 
+        transform: translateY(-25px);
+        opacity: 0;
+    }
+    100% { 
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+#background-gif {
+    width: 100%;
+}
+
+img {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+}
