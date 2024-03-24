@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/math-level-one.css">
+    <script>
+        function redirectToSelection() {
+            window.location.replace("../quiz-selection.html");
+        }
+    </script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+    <header>
+        <h3 id="back" class="button" onclick="redirectToSelection()"><</h3>
+        <h3>MATH</h3>
+    </header>
+    <div id="win-one-math">
+        <div id="wrapper-win-content">
+            <div id="main-win-content-wrapper">
+                <h1>Level Completed!</h1>
+                <div id="input-solution">
+                    <p>Enter the correct Solution to go to the next Level</p>
+                    <input type="text" id="solution-collector">
+                </div>
+                <div id="button-wrapper">
+                    <button class="button-initial" id="replay-button">Replay</button>
+                    <button id="next-button" class="button-initial">Next</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="main-wrapper">
+        <div id="main-content-wrapper">
+            <div id="first-task" class="task">
+                <div id="question-1" class="question">
+                    <h1>If you add 6 to 9, you get?</h1>
+                </div>
+                <div id="answers-1" class="answers">
+                    <div id="answers-1-answer-1" class="button">
+                        <h2>14</h2>
+                    </div>
+                    <div id="answers-1-answer-2" class="button">
+                        <h2>15</h2>
+                    </div>
+                    <div id="answers-1-answer-3" class="button">
+                        <h2>11</h2>
+                    </div>
+                </div>
+            </div>
+            <div id="second-task" class="task">
+                <div id="question-2" class="question">
+                    <h1>Solve for x: 3x - 6 = ?</h1>
+                </div>
+                <div id="answers-2" class="answers">
+                    <div id="answers-2-answer-1" class="button">
+                        <h2>18</h2>
+                    </div>
+                    <div id="answers-2-answer-2" class="button">
+                        <h2>10</h2>
+                    </div>
+                    <div id="answers-2-answer-3" class="button">
+                        <h2>21</h2>
+                    </div>
+                </div>
+            </div>
+            <div id="third-task" class="task">
+                <div id="question-3" class="question">
+                    <h1>A rectangle has an area of 36 square meters. If one side is 4 meters long, then the other side is how long?</h1>
+                </div>
+                <div id="answers-3" class="answers">
+                    <div id="answers-3-answer-1" class="button">
+                        <h2>9</h2>
+                    </div>
+                    <div id="answers-3-answer-2" class="button">
+                        <h2>18</h2>
+                    </div>
+                    <div id="answers-3-answer-3" class="button">
+                        <h2>36</h2>
+                    </div>
+                </div>
+            </div>
+            <div id="fourth-task" class="task">
+                <div id="question-4" class="question">
+                    <h1>In a sequence where each number increases by 3, what is the fourth number if the first is 4?</h1>
+                </div>
+                <div id="answers-4" class="answers">
+                    <div id="answers-4-answer-1" class="button">
+                        <h2>1</h2>
+                    </div>
+                    <div id="answers-4-answer-2" class="button">
+                        <h2>7</h2>
+                    </div>
+                    <div id="answers-4-answer-3" class="button">
+                        <h2>16</h2>
+                    </div>
+                </div>
+            </div>
+            <div id="fifth-task" class="task">
+                <div id="question-5" class="question">
+                    <h1>What decimal represents the fraction \( \frac{1}{100} \)?</h1>
+                </div>
+                <div id="answers-5" class="answers">
+                    <div id="answers-5-answer-1" class="button">
+                        <h2>0.1</h2>
+                    </div>
+                    <div id="answers-5-answer-2" class="button">
+                        <h2>0.01</h2>
+                    </div>
+                    <div id="answers-5-answer-3" class="button">
+                        <h2>10</h2>
+                    </div>
+                </div>
+            </div>
+            <div id="sixth-task" class="task">
+                <div id="question-6" class="question">
+                    <h1>John has 26 books. He donates some to a library, and now he has 13 left. How many books did he donate?</h1>
+                </div>
+                <div id="answers-6" class="answers">
+                    <div id="answers-6-answer-1" class="button">
+                        <h2>6</h2>
+                    </div>
+                    <div id="answers-6-answer-2" class="button">
+                        <h2>13</h2>
+                    </div>
+                    <div id="answers-6-answer-3" class="button">
+                        <h2>26</h2>
+                    </div>
+                </div>
+            </div>
+            <div id="seventh-task" class="task">
+                <div id="question-7" class="question">
+                    <h1>If you have 18 apples and give away half, how many apples do you have left?</h1>
+                </div>
+                <div id="answers-7" class="answers">
+                    <div id="answers-7-answer-1" class="button">
+                        <h2>9</h2>
+                    </div>
+                    <div id="answers-7-answer-2" class="button">
+                        <h2>36</h2>
+                    </div>
+                    <div id="answers-7-answer-3" class="button">
+                        <h2>18</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="overview-wrapper">
+            <div id="overview-text">
+                <h3>Overview</h3>
+            </div>
+            <div id="overview-content">
+                <ul>
+                    <li id="first-correct-answer">___</li>
+                    <li>•</li>
+                    <li id="second-correct-answer">___</li>
+                    <li>•</li>
+                    <li id="third-correct-answer">___</li>
+                    <li>•</li>
+                    <li id="fourth-correct-answer">___</li>
+                    <li>•</li>
+                    <li id="fifth-correct-answer">___</li>
+                    <li>•</li>
+                    <li id="sixth-correct-answer">___</li>
+                    <li>•</li>
+                    <li id="seventh-correct-answer">___</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="../js/quiz-selection.js"></script>
+    <script src="../js/level-one.js"></script>
+</body>
+</html>
