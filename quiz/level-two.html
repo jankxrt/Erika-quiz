@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/crossword-level-two.css">
+    <script>
+        function redirectToSelection() {
+            window.location.replace("../quiz-selection.html");
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h3 id="back" class="button" onclick="redirectToSelection()"><</h3>
+        <h3>CROSSWORD</h3>
+    </header>
+    <div id="win">
+        <div id="wrapper-win-content">
+            <div id="main-win-content-wrapper">
+                <h1>Level Completed!</h1>
+                <div id="input-solution">
+                    <p>Enter the correct Solution to go to the next Level</p>
+                    <input type="text" id="solution-collector">
+                </div>
+                <div id="button-wrapper">
+                    <button class="button-initial" id="replay-button">Replay</button>
+                    <button id="next-button" class="button-initial">Next</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="main-crossword-wrapper">
+        <div id="crossword-wrapper">
+            <div id="crossword-row-1" class="crossword-row">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+                <input type="text" id="fifth-first-input">
+                <input type="text" class="no-input">
+                <input type="text" id="seventh-first-input">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+                <input type="text" id="third-first-input">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+            </div>
+            <div id="crossword-row-2" class="crossword-row">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+                <input type="text" id="fifth-second-input">
+                <input type="text" id="sixth-first-input">
+                <input type="text" id="seventh-second-input">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+                <input type="text" id="third-second-input">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+            </div>
+            <div id="crossword-row-3" class="crossword-row">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+                <input type="text" id="fifth-third-input">
+                <input type="text" id="sixth-second-input">
+                <input type="text"  id="seventh-third-input">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+                <input type="text" id="third-third-input">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+            </div>
+            <div id="crossword-row-4" class="crossword-row">
+                <input type="text" id="first-input">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+                <input type="text" id="fifth-fourth-input">
+                <input type="text" id="sixth-third-input">
+                <input type="text" id="seventh-fourth-input">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+                <input type="text" id="third-fourth-input">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+            </div>
+            <div id="crossword-row-5" class="crossword-row">
+                <input type="text" id="second-input">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+                <input type="text" id="fifth-fifth-input">
+                <input type="text" id="sixth-fourth-input">
+                <input type="text" id="seventh-fifth-input">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+                <input type="text" id="third-fifth-input">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+            </div>
+            <div id="crossword-row-6" class="crossword-row">
+                <input type="text" id="third-input">
+                <input type="text" class="no-input">
+                <input type="text" id="second-first-input">
+                <input type="text" id="fifth-sixth-input">
+                <input type="text" id="sixth-fifth-input">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+                <input type="text" id="third-sixth-input">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+            </div>
+            <div id="crossword-row-7" class="crossword-row">
+                <input type="text" id="fourth-input">
+                <input type="text" class="no-input">
+                <input type="text" id="second-second-input">
+                <input type="text" id="fifth-seventh-input">
+                <input type="text" id="sixth-sixth-input">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+                <input type="text" id="third-seventh-input">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+            </div>
+            <div id="crossword-row-8" class="crossword-row">
+                <input type="text" id="fifth-input">
+                <input type="text" class="no-input">
+                <input type="text" id="second-third-input">
+                <input type="text" id="fifth-eigth-input">
+                <input type="text" id="sixth-seventh-input">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+                <input type="text" id="third-eigth-input">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+            </div>
+            <div id="crossword-row-9" class="crossword-row">
+                <input type="text" id="sixth-input">
+                <input type="text" class="no-input">
+                <input type="text" id="second-fourth-input">
+                <input type="text" id="fifth-ninth-input">
+                <input type="text" id="fourth-first-input">
+                <input type="text" id="fourth-second-input">
+                <input type="text" id="fourth-third-input">
+                <input type="text" id="fourth-fourth-input">
+                <input type="text" id="fourth-fifth-input">
+                <input type="text" id="fourth-sixth-input">
+                <input type="text" id="third-ninth-input">
+                <input type="text" id="fourth-eigth-input">
+                <input type="text" id="fourth-ninth-input">
+            </div>
+            <div id="crossword-row-10" class="crossword-row">
+                <input type="text" id="seventh-input">
+                <input type="text" class="no-input">
+                <input type="text" id="second-fifth-input">
+                <input type="text" id="fifth-tenth-input">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+                <input type="text" id="third-tenth-input">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+            </div>
+            <div id="crossword-row-11" class="crossword-row">
+                <input type="text" id="eigth-input">
+                <input type="text" class="no-input">
+                <input type="text" id="second-sixth-input">
+                <input type="text" id="fifth-eleventh-input">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+                <input type="text" id="third-eleventh-input">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+            </div>
+            <div id="crossword-row-12" class="crossword-row">
+                <input type="text" id="ninth-input">
+                <input type="text" class="no-input">
+                <input type="text" id="second-seventh-input">
+                <input type="text" id="fifth-twelvth-input">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+                <input type="text" id="third-twelvth-input">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+            </div>
+            <div id="crossword-row-13" class="crossword-row">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+                <input type="text" id="second-eigth-input">
+                <input type="text"  id="fifth-thirteenth-input">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+                <input type="text" id="third-thirteenth-input">
+                <input type="text" class="no-input">
+                <input type="text" class="no-input">
+            </div>
+        </div>
+    </div>
+    <div id="crossword-clues-wrapper">
+        <div class="clue" id="first-clue">
+            <div id="info" class="info">
+                <div class="button-1">
+                    <p>1</p>
+                </div>
+                <div class="direction-down button-1">
+                    <p>></p>
+                </div>
+            </div>
+            <div id="text" class="text">
+                <p>A traditional Japanese paper model that is usually (but not always) spherical and composed of multiple folded papers.</p>
+            </div>
+        </div>
+        <div class="clue" id="second-clue">
+            <div id="info" class="info">
+                <div class="button-1">
+                    <p>2</p>
+                </div>
+                <div class="direction-down button-1">
+                    <p>></p>
+                </div>
+            </div>
+            <div id="text" class="text">
+                <p>A group of one thousand origami cranes held together by strings, symbolizing peace and healing.</p>
+            </div>
+        </div>
+        <div class="clue" id="third-clue">
+            <div id="info" class="info">
+                <div class="button-1">
+                    <p>3</p>
+                </div>
+                <div class="direction-down button-1">
+                    <p>></p>
+                </div>
+            </div>
+            <div id="text" class="text">
+                <p>A complex paper folding technique that creates a repeating pattern on a single sheet of paper.</p>
+            </div>
+        </div>
+        <div class="clue" id="fourth-clue">
+            <div id="info" class="info">
+                <div class="button-1">
+                    <p>4</p>
+                </div>
+                <div class="direction-down button-1">
+                    <p>></p>
+                </div>
+            </div>
+            <div id="text" class="text">
+                <p>A fashion and design phenomenon that includes a wide range of household goods and personal items, including origami.</p>
+            </div>
+        </div>
+        <div class="clue" id="fifth-clue">
+            <div id="info" class="info">
+                <div class="button-1">
+                    <p>5</p>
+                </div>
+                <div class="direction-down button-1">
+                    <p>></p>
+                </div>
+            </div>
+            <div id="text" class="text">
+                <p>A layout design showing all the folds required to create the structure of an origami model.</p>
+            </div>
+        </div>
+        <div class="clue" id="sixth-clue">
+            <div id="info" class="info">
+                <div class="button-1">
+                    <p>6</p>
+                </div>
+                <div class="direction-down button-1">
+                    <p>></p>
+                </div>
+            </div>
+            <div id="text" class="text">
+                <p>A technique used metaphorically in origami to describe the fusion of pieces without adhesive.</p>
+            </div>
+        </div>
+        <div class="clue" id="seventh-clue">
+            <div id="info" class="info">
+                <div class="button-1">
+                    <p>1</p>
+                </div>
+                <div class="button-1">
+                    <p>></p>
+                </div>
+            </div>
+            <div id="text" class="text">
+                <p>Japanese hand-screend paper with intricate patterns, often used in paper folding.</p>
+            </div>
+        </div>
+    </div>
+    <script src="../js/level-two.js"></script>
+</body>
+</html>
